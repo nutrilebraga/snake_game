@@ -1,3 +1,28 @@
+"""
+Snake Game Pro - Joystick Edition
+----------------------------------
+Jogo da cobrinha desenvolvido com Pygame, com suporte a:
+
+- Controle via teclado e joystick
+- Sistema de recordes persistente em JSON
+- Diferentes níveis de dificuldade
+- Sistema de power-up (poção de invencibilidade)
+- Sons e música de fundo
+- Interface gráfica personalizada com imagens
+
+Autor: [ nutrilebraga ]
+Versão: 1.0
+"""
+
+# ==========================================================
+# IMPORTAÇÃO DE BIBLIOTECAS
+# ==========================================================
+# pygame  -> Biblioteca principal para desenvolvimento do jogo
+# random -> Utilizado para geração de posições aleatórias
+# sys     -> Permite encerramento seguro da aplicação
+# json    -> Persistência de dados (recordes)
+# os      -> Manipulação de arquivos e verificação de existência
+
 import pygame
 import random
 import sys
